@@ -15,12 +15,7 @@ export default function Copyright(props: any) {
         ...(Array.isArray(props.sx) ? props.sx : [props.sx]),
       ]}
     >
-      {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Company
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
+      Developed by Matt Wang @ 2024
     </Typography>
   );
 }
