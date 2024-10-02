@@ -51,7 +51,7 @@ export default function SideMenuMobile({
               sx={{ width: 24, height: 24 }}
             />
             <Typography component="p" variant="h6">
-              Riley Carter
+              Matt Wang
             </Typography>
           </Stack>
           <MenuButton showBadge>
